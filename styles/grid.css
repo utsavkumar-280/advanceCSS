@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Alata", sans-serif;
+}
+header {
+  background-color: rgb(17, 174, 236);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 5rem;
+  padding: 3rem;
+  min-height: 15vh;
+}
+footer {
+  background-color: rgb(17, 174, 236);
+  text-align: center;
+  font-size: 5rem;
+  padding: 3rem;
+  min-height: 15vh;
+  color: rgb(255, 255, 255);
+}
+main {
+  background-color: rgb(255, 255, 255);
+  height: 85vh;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  width: 90vw;
+  font-size: 4rem;
+  border: 0.5rem solid rgb(0, 0, 0);
+
+  display: grid;
+  /* grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto); */
+
+  /* example-1 grid gap */
+  /* grid-gap: 4rem; */
+
+  /* example-2 testing content properties */
+  /* justify-content: start;
+  justify-content: center;
+  justify-content: end;
+  justify-content: stretch;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+
+  align-content: start;
+  align-content: end;
+  align-content: center;
+  align-content: stretch;
+  align-content: space-around;
+  align-content: space-between;
+  align-content: space-evenly; */
+
+  /* example-3 testing items properties */
+  /* align-items: start;
+  align-items: end;
+  align-items: center;
+  align-items: stretch;
+
+  justify-items: start;
+  justify-items: end;
+  justify-items: center;
+  justify-items: stretch; */
+
+  /* example-4 testing grid-auto-flow */
+  /* grid-auto-flow: row;
+  grid-auto-flow: column;
+  grid-auto-flow: dense; */
+
+  /* example-5 testing grid-template-areas */
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+    "box2 box1 box1"
+    "box3 box3 box5"
+    "box6 box4 box5"
+    "box7 box4 box9"
+    "box7 box8 box9"
+    "box7 box8 box9";
+}
+.box1 {
+  background-color: rgb(51, 202, 101);
+  grid-area: box1;
+}
+.box2 {
+  background-color: rgb(0, 217, 255);
+  grid-area: box2;
+}
+.box3 {
+  background-color: rgb(248, 62, 29);
+  grid-area: box3;
+}
+.box4 {
+  background-color: rgb(217, 255, 0);
+  grid-area: box4;
+}
+.box5 {
+  background-color: rgb(38, 80, 218);
+  grid-area: box5;
+}
+.box6 {
+  background-color: rgba(241, 117, 214, 0.945);
+  grid-area: box6;
+}
+.box7 {
+  background-color: rgba(134, 252, 0, 0.945);
+  grid-area: box7;
+}
+.box8 {
+  background-color: rgba(133, 13, 202, 0.945);
+  grid-area: box8;
+}
+.box9 {
+  background-color: rgba(141, 0, 42, 0.945);
+  grid-area: box9;
+}
