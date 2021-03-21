@@ -1,0 +1,63 @@
+.introContainer {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+.intro {
+  width: 80vw;
+  padding: 3rem 0rem 5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* .introImg {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+} */
+.intro > img {
+  width: auto;
+  height: 100%;
+
+}
+
+.intro article {
+  padding: 3rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr 4fr;
+  align-content: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.intro article > h3 {
+  color: rgb(22, 180, 253);
+  font-size: 2rem;
+  align-self: flex-end;
+}
+.intro article h2 {
+  font-weight: 800;
+  font-size: 4rem;
+  align-self: center;
+}
+.intro article p {
+  font-size: 2rem;
+  align-self: flex-start;
+}
+.creator {
+  padding: 2rem 0rem;
+  display: flex;
+}
+.creatorName {
+  padding: 0rem 1rem;
+  font-size: 2rem;
+}
+.creatorName div {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(156, 156, 156);
+}
+.creator img {
+  height: 5vh;
+  width: auto;
+  border-radius: 50%;
+}
